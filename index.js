@@ -29,18 +29,34 @@ johnLennonFacts()
 
 
 
+<<<<<<< HEAD
 
 
 function iLoveTheBeatles (number) {
 
+=======
+// var b = ['I love the Beatles!']
+
+function iLoveTheBeatles (number) {
+  // var result="";
+  
+>>>>>>> a89205cdcdad12c99358e766f643ff217bf67726
  var body = [];
  do {
    body.push('I love the Beatles!')
    
+<<<<<<< HEAD
      number++;
  }
 while (number < 15) {
  
+=======
+ }
+while (number < 15) {
+ 
+     number++;
+ }
+>>>>>>> a89205cdcdad12c99358e766f643ff217bf67726
    return body
  }
  }
