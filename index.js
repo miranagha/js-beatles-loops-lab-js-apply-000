@@ -27,43 +27,19 @@ function johnLennonFacts (facts) {
 }
 johnLennonFacts()
 
-
-
-<<<<<<< HEAD
-
-
-function iLoveTheBeatles (number) {
-
-// var b = ['I love the Beatles!']
-
-function iLoveTheBeatles (number) {
-  var result="";
+const iLoveTheBeatles = (number) => {
+  let array = []
+  do{
+    array.push('I love the Beatles!')
+    number++
+  }
+  while(number<15)
   
-
- var body = [];
- do {
-   body.push('I love the Beatles!')
-   
-
-     number++;
- }
-// while (number < 15) {
- 
-// }
-while (number < 15) {
- 
-     number++;
- }
-
-   return body
- }
- }
-johnLennonFacts(7)
+  return array
+}
 
 
-
-
-
+iLoveTheBeatles(10) 
 
 
 
